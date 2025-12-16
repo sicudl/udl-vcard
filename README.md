@@ -24,3 +24,9 @@ To see this application in action go to: https://vcard.pixelpaper.org
 ## Installation
 
 If you have a webspace with SSL/TLS encryption enabled, simply upload the content of the folder "html" to your webspace. Then open the HTTPS-URI of your webspace in your browser.
+
+## UdL customization
+
+* Translated to catalan
+* Use of institutional palette colors
+* Removed messenger settings

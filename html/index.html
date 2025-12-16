@@ -1,9 +1,9 @@
 <!doctype html>
-<html lang="de">
+<html lang="ca">
 <head>
     <meta charset="utf-8">
-    <title>Visitenkarte</title>
-    <meta name="description" content="Visitenkarte für alle">
+    <title>Targeta de visita</title>
+    <meta name="description" content="Targeta de visita per a tothom">
     <meta name="author" content="Christian Beuschel <c.beuschel@humboldt-institut.org>">
 
 	<meta name="viewport" content="width = device-width, initial-scale = 1.0, user-scalable = no">
@@ -11,7 +11,7 @@
 
 	<meta name="mobile-web-app-capable" content="yes">
 	<meta name="apple-mobile-web-app-capable" content="yes">
-	<meta name="apple-mobile-web-app-title" content="Visitenkarte">
+	<meta name="apple-mobile-web-app-title" content="Targeta de visita">
 	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 	
 	<link rel="shortcut icon" href="favicon.ico">
@@ -49,14 +49,6 @@
 		</div>
 	</div>
 </div>
-<div class="page" id="messenger_office_page">
-	<div class="text_section" id="messenger_text_office">
-	</div>
-	<div class="qr_section">
-		<div class="qrcode_display" id="messenger_qrcode_office">
-		</div>
-	</div>
-</div>
 <div class="page" id="home_page">
 	<div class="text_section" id="vcard_text_home">
 	</div>
@@ -69,142 +61,143 @@
 	<div class="scroll">
 		<div class="scroll_content">
 			<form>
-				<h2 class="settings">Einstellungen</h2>
-				<p class="settings">
-					Hier kannst du die Inhalte deiner geschäftlichen und deiner privaten Visitenkarte anpassen. <span style="text-decoration: underline;">Bitte installiere die App bevor du deine Daten eingibst.</span> Die Anleitung zur Installation findest du ganz unten.
+			<h2 class="settings">Configuració</h2>
+			<p class="settings">
+				Aquí pots adaptar els continguts de la teva targeta de visita professional i privada. <span style="text-decoration: underline;">Si us plau, instal·la l'app abans d'introduir les teves dades.</span> Trobaràs les instruccions d'instal·lació al final.
 				</p>
-				<h2 class="settings">Geschäftlich</h2>
-				<p class="settings">
-					<label class="settings">Organisation</label>
+			<h2 class="settings">Perfil Professional</h2>
+			<p class="settings">
+				<label class="settings">Organització</label>
 					<input class="settings" id="office_org_input" type="text" name="office_org" value="">
 				</p>
 				<p class="settings">
-					<label class="settings">Vorname</label>
-					<input class="settings" id="office_fn_input" type="text" name="office_fn" value="">
-				</p>
-				<p class="settings">
-					<label class="settings">Nachname</label>
+				<label class="settings">Nom</label>
+				<input class="settings" id="office_fn_input" type="text" name="office_fn" value="">
+			</p>
+			<p class="settings">
+				<label class="settings">Cognom</label>
 					<input class="settings" id="office_ln_input" type="text" name="office_ln" value="">
 				</p>
 				<p class="settings">
-					<label class="settings">Position / Rolle</label>
+				<label class="settings">Posició / Rol</label>
 					<input class="settings" id="office_role_input" type="text" name="office_role" value="">
 				</p>
 				<p class="settings">
-					<label class="settings">Straße, Hausnummer</label>
+				<label class="settings">Carrer, número</label>
 					<input class="settings" id="office_addr_input" type="text" name="office_addr" value="">
 				</p>
 				<p class="settings">
-					<label class="settings">Postleitzahl</label>
+				<label class="settings">Codi postal</label>
 					<input class="settings" id="office_zip_input" type="text" name="office_zip" value="">
 				</p>
 				<p class="settings">
-					<label class="settings">Ort</label>
+				<label class="settings">Ciutat</label>
 					<input class="settings" id="office_city_input" type="text" name="office_city" value="">
 				</p>
 				<p class="settings">
-					<label class="settings">Telefon</label>
+				<label class="settings">Telèfon</label>
 					<input class="settings" id="office_tel0_input" type="text" name="office_tel0" value="">
 				</p>
 				<p class="settings">
-					<label class="settings">E-Mail</label>
+				<label class="settings">Correu electrònic</label>
 					<input class="settings" id="office_email_input" type="text" name="office_email" value="">
 				</p>
 				<p class="settings">
-					<label class="settings">Homepage</label>
+				<label class="settings">Pàgina web</label>
 					<input class="settings" id="office_web_input" type="text" name="office_web" value="">
 				</p>
+				<!--
 				<p class="settings">
-					<label class="settings">XMPP-/Matrix-Kennung</label>
+				<label class="settings">Identificador XMPP/Matrix</label>
 					<input class="settings" id="messenger_office_input" type="text" name="messenger_office" value="">
 				</p>
-				
-				<h2 class="settings">Privat</h2>
+				-->
+				<h2 class="settings">Perfil Privat</h2>
 				<p class="settings">
-					<label class="settings">Vorname</label>
+				<label class="settings">Nom</label>
 					<input class="settings" id="home_fn_input" type="text" name="home_fn" value="">
 				</p>
 				<p class="settings">
-					<label class="settings">Nachname</label>
+				<label class="settings">Cognom</label>
 					<input class="settings" id="home_ln_input" type="text" name="home_ln" value="">
 				</p>
 				<p class="settings">
-					<label class="settings">Straße, Hausnummer</label>
+				<label class="settings">Carrer, número</label>
 					<input class="settings" id="home_addr_input" type="text" name="home_addr" value="">
 				</p>
 				<p class="settings">
-					<label class="settings">Postleitzahl</label>
+				<label class="settings">Codi postal</label>
 					<input class="settings" id="home_zip_input" type="text" name="home_zip" value="">
 				</p>
 				<p class="settings">
-					<label class="settings">Ort</label>
+				<label class="settings">Ciutat</label>
 					<input class="settings" id="home_city_input" type="text" name="home_city" value="">
 				</p>
 				<p class="settings">
-					<label class="settings">Telefon</label>
+				<label class="settings">Telèfon</label>
 					<input class="settings" id="home_tel0_input" type="text" name="home_tel0" value="">
 				</p>
 				<p class="settings">
-					<label class="settings">Mobiltelefon</label>
+				<label class="settings">Telèfon mòbil</label>
 					<input class="settings" id="home_tel1_input" type="text" name="home_tel1" value="">
 				</p>
 				<p class="settings">
-					<label class="settings">E-Mail</label>
+				<label class="settings">Correu electrònic</label>
 					<input class="settings" id="home_email_input" type="text" name="home_email" value="">
 				</p>
 				<p class="settings">
-					<label class="settings">Homepage / Profilseite</label>
+				<label class="settings">Pàgina web / Pàgina de perfil</label>
 					<input class="settings" id="home_web_input" type="text" name="home_web" value="">
 				</p>
-				<h2 class="settings">Informationen</h2>
-				<p class="settings">
-					Diese Applikation steht kostenlos zur Verfügung. Die Applikation dient dazu eine geschäftliche und eine private Visitenkarte auf dem Smartphone anzuzeigen.
+			<h2 class="settings">Informació</h2>
+			<p class="settings">
+				Aquesta aplicació està disponible gratuïtament. L'aplicació serveix per mostrar una targeta de visita professional i una de privada a l'smartphone.
 				</p>
 				<p class="settings">
-					Alle eingegeben Daten werden offline auf dem Gerät und in dem Webbrowser gespeichert, in dem sie eingegeben wurden.
+				Totes les dades introduïdes es guarden offline en l'aparell i en el navegador web on van ser introduïdes.
 				</p>
 				<p class="settings">
-					Die Informationen der gespeicherten Visitenkarten werden im V-Card-Format kodiert und als QR-Code angezeigt. Dieser kann von einer entsprechenden App wie z.B. der <a href="https://support.apple.com/de-de/HT208843" target="_blank" rel="noopener noreferrer">"Kamera"-App</a> auf dem iPhone oder der <a href="https://play.google.com/store/apps/details?id=de.markusfisch.android.binaryeye" target="_blank" rel="noopener noreferrer">"Binary Eye"-App von "Markus Fisch"</a> auf einem Android-Smartphone gelesen werden. Die Informationen werden dabei als Eintrag für das Adressbuch erkannt und können direkt in selbiges übernommen werden.
+				La informació de les targetes de visita guardades es codifica en format V-Card i es mostra com a codi QR. Es pot llegir amb una aplicació adequada com la <a href="https://support.apple.com/de-de/HT208843" target="_blank" rel="noopener noreferrer">app "Càmera"</a> a l'iPhone o l'app <a href="https://play.google.com/store/apps/details?id=de.markusfisch.android.binaryeye" target="_blank" rel="noopener noreferrer">"Binary Eye" de "Markus Fisch"</a> en un Android. La informació es reconeix com una entrada de la llibreta d'adreces i es pot importar directament.
 				</p>
 				<p class="settings">
-					Die Daten werden auch in Textform angezeigt. Sollte also jemand nicht in der Lage sein, einen QR-Code zu scannen, können die Daten manuell übertragen werden.
+				També es mostren les dades en format text. Si algú no pot escanejar un codi QR, les dades es poden transferir manualment.
 				</p>
 				<p class="settings">
-					Felder, die in den Einstellungen leer gelassen werden, werden ignoriert. Möchte man also z.B. seine private Adresse nicht auf der privaten Visitenkarte haben, lässt man "Straße, Hausnummer", "Postleitzahl" und "Ort" einfach leer. Gleiches gilt für Telefonnummern und alle anderen Felder.
+				Els camps que es deixan en blanc a la configuració s'ignoren. Per exemple, si no vols que la teva adreça privada aparegui a la targeta privada, deixa "Carrer, número", "Codi postal" i "Ciutat" buits. Això es pot aplicar als números de telèfon i a tots els altres camps.
 				</p>
 				<p class="settings">
-					Als private Homepage lässt sich auch ein Link auf das eigene Soziale Netzwerk Profil verwenden. Das funktioniert z.B. mit einem <a href="https://de-de.facebook.com/help/2053403608222571" target="_blank" rel="noopener noreferrer">Facebook</a>-Profil.
+				A la pàgina web privada, també pots posar un enllaç al teu perfil de xarxa social. Per exemple, funciona amb un perfil de <a href="https://de-de.facebook.com/help/2053403608222571" target="_blank" rel="noopener noreferrer">Facebook</a>.
 				</p>
-				<h2 class="settings">Installation</h2>
-				<p class="settings">
-					Diese Anwendung ist eine sogenannte "Progressive Web App". Sie kann wie eine reguläre App aus dem App-Store benutzt werden.
+			<h2 class="settings">Instal·lació</h2>
+			<p class="settings">
+				Aquesta aplicació és una "Progressive Web App". Es pot utilitzar com una aplicació regular de la botiga d'aplicacions.
 				</p>
 				<p class="settings">
-					Für die Installation auf <b>iOS-Geräten</b> (iPhone, iPad und iPod Touch) öffnet man diese Anwendung als Web-Seite in Safari.	
-					<ul class="settings">
-						<li>Dort tippt man auf das "Teilen"-Symbol (mittig, unten).</li>
-						<li>In der Teilen-Funktion wählt man "Zum Home-Bildschirm".</li>
-						<li>Im nachfolgenden Bestätigungsdialog kann man den Namen der App ändern und anschließend wählt man "Hinzufügen" (rechts, oben).</li>
-						<li>Die Installation ist damit abgeschlossen.</li>
+				Per a la instal·lació en <b>dispositius iOS</b> (iPhone, iPad i iPod Touch), obriu aquesta aplicació com a pàgina web a Safari.	
+				<ul class="settings">
+					<li>Toqueu l'icona "Compartir" (al centre, a baix).</li>
+					<li>A la funció de compartir, seleccioneu "Afegir a la pantalla d'inici".</li>
+					<li>Al diàleg de confirmació, podeu canviar el nom de l'app i després seleccioneu "Afegir" (a la dreta, a dalt).</li>
+					<li>La instal·lació s'ha completat.</li>
 					</ul>
 				</p>
 				<p class="settings">
-					Auf einem <b>Android-Gerät</b> mit Chrome-Browser öffnet man die Anwendung als Web-Seite in Chrome. 
-					<ul class="settings">
-						<li>Dort öffnet man das Menü (recht, oben, drei Punkte untereinander).</li>
-						<li>Im Menü wählt man die Option "Zum Startbildschirm hinzufügen".</li>
-						<li>Im nachfolgenden Bestätigungsdialog tippt man auf "Hinzufügen".</li>
-						<li>Die Installation ist damit abgeschlossen.</li>
+				En un <b>dispositiu Android</b> amb navegador Chrome, obriu l'aplicació com a pàgina web a Chrome. 
+				<ul class="settings">
+					<li>Obriu el menú (a la dreta, a dalt, tres punts verticals).</li>
+					<li>Al menú, seleccioneu l'opció "Afegir a la pantalla d'inici".</li>
+					<li>Al diàleg de confirmació, toqueu "Afegir".</li>
+					<li>La instal·lació s'ha completat.</li>
 					</ul>
 				</p>
 				<p class="settings">
-					Die Installation funktioiert auf anderen Geräten ähnlich.
+				La instal·lació funciona de manera similar en altres dispositius.
 				</p>
 			</form>
 		</div>
 	</div>
 </div>
-<div class="menu"><img alt="Büro" class="menu" id="office_btn" src="img/office.svg"><img alt="chat" class="menu" id="messenger_office_btn" src="img/chat.svg"><img alt="Privat" class="menu" id="home_btn" src="img/home.svg"><img alt="Einstellungen" class="menu" id="edit_btn" src="img/edit.svg"></div>
+<div class="menu"><img alt="Professional" class="menu" id="office_btn" src="img/office.svg"><img alt="xat" class="menu" id="messenger_office_btn" src="img/chat.svg"><img alt="Privat" class="menu" id="home_btn" src="img/home.svg"><img alt="Configuració" class="menu" id="edit_btn" src="img/edit.svg"></div>
 </div>
 <script>
     var app = new Application();

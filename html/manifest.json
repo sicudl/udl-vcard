@@ -1,8 +1,8 @@
 {
-    "short_name": "Visitenkarte",
-    "name": "Visitenkarte",
-    "description": "Geschäftliche und private Visitenkarte",
-	"version": "2.8",
+    "short_name": "UdL VCard",
+    "name": "Targeta de visita UdL",
+    "description": "Targeta de visita professional i privada de la UdL",
+	  "version": "2.8",
     "icons": [
       {
         "src": "./img/app-icon-192.png",
@@ -17,10 +17,10 @@
         "purpose": "any maskable"
       }
     ],
-    "lang": "de-DE",
+    "lang": "ca-ES",
     "start_url": ".",
     "scope": "./",
     "display": "standalone",
     "background_color": "#ffffff",
-    "theme_color": "#008080"
+    "theme_color": "#830051"
   }

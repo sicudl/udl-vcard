@@ -84,13 +84,13 @@ p.org {
 	padding: 20px 0px 2px 0px;
 	margin: 0;
 	font-size: 141%;
-	border-bottom: 1px solid #008080;
+	border-bottom: 1px solid #830051;
 }
 p.fn {
 	padding: 8px 0px 2pt 0px;
 	margin: 0;
 	font-family: 'Open Sans Bold';
-	color: #008080;
+	color: #830051;
 }
 p.role {
 	padding: 0px 0px 10px 0px;
@@ -122,7 +122,7 @@ p.fn_priv {
 	padding: 20px 0px 12px 0px;
 	margin: 0;
 	font-size: 141%;
-	color: #008080;
+	color: #830051;
 }
 
 div.qrcode_display {
@@ -264,7 +264,7 @@ span.red {
 		font-size: 16pt;
 	}
 	p.org {
-		border-bottom: 2px solid #008080;
+		border-bottom: 2px solid #830051;
 	}
 	input.settings {
 		width: 360px;
@@ -293,7 +293,7 @@ span.red {
 		width: 480px;
 	}
 	p.org {
-		border-bottom: 3px solid #008080;
+		border-bottom: 3px solid #830051;
 	}
 	img.text {
 		width: 22pt;
