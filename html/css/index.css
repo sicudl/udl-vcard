@@ -137,7 +137,7 @@ div.qrcode_display {
 div.menu {
 	position: fixed;
 	display: grid;
-	height: 200px;
+	height: 150px;
 	width: 48px;
 	grid-template-columns: 100%;
     grid-template-rows: 48px 48px 48px;
@@ -155,7 +155,7 @@ img.menu {
 	cursor: pointer;
 }
 img.selected_btn {
-	background-color: #FF7F7F;
+	background-color: #7cffae;
 	filter: invert(100%);
 }
 img.disabled_btn {

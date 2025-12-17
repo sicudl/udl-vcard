@@ -49,6 +49,15 @@
 		</div>
 	</div>
 </div>
+
+<div style="display:none" class="page" id="messenger_office_page">
+	<div class="text_section" id="messenger_text_office">
+	</div>
+	<div class="qr_section">
+		<div class="qrcode_display" id="messenger_qrcode_office">
+		</div>
+	</div>
+</div>
 <div class="page" id="home_page">
 	<div class="text_section" id="vcard_text_home">
 	</div>
@@ -106,19 +115,18 @@
 				<label class="settings">Pàgina web</label>
 					<input class="settings" id="office_web_input" type="text" name="office_web" value="">
 				</p>
-				<!--
-				<p class="settings">
+				
+				<p style="display: none" class="settings">
 				<label class="settings">Identificador XMPP/Matrix</label>
 					<input class="settings" id="messenger_office_input" type="text" name="messenger_office" value="">
 				</p>
-				-->
 				<h2 class="settings">Perfil Privat</h2>
 				<p class="settings">
 				<label class="settings">Nom</label>
 					<input class="settings" id="home_fn_input" type="text" name="home_fn" value="">
 				</p>
 				<p class="settings">
-				<label class="settings">Cognom</label>
+				<label class="settings">Cognoms</label>
 					<input class="settings" id="home_ln_input" type="text" name="home_ln" value="">
 				</p>
 				<p class="settings">
@@ -166,7 +174,7 @@
 				Els camps que es deixan en blanc a la configuració s'ignoren. Per exemple, si no vols que la teva adreça privada aparegui a la targeta privada, deixa "Carrer, número", "Codi postal" i "Ciutat" buits. Això es pot aplicar als números de telèfon i a tots els altres camps.
 				</p>
 				<p class="settings">
-				A la pàgina web privada, també pots posar un enllaç al teu perfil de xarxa social. Per exemple, funciona amb un perfil de <a href="https://de-de.facebook.com/help/2053403608222571" target="_blank" rel="noopener noreferrer">Facebook</a>.
+				A la pàgina web privada, també pots posar un enllaç al teu perfil de xarxa social.
 				</p>
 			<h2 class="settings">Instal·lació</h2>
 			<p class="settings">
@@ -197,7 +205,7 @@
 		</div>
 	</div>
 </div>
-<div class="menu"><img alt="Professional" class="menu" id="office_btn" src="img/office.svg"><img alt="xat" class="menu" id="messenger_office_btn" src="img/chat.svg"><img alt="Privat" class="menu" id="home_btn" src="img/home.svg"><img alt="Configuració" class="menu" id="edit_btn" src="img/edit.svg"></div>
+<div class="menu"><img alt="Professional" class="menu" id="office_btn" src="img/office.svg"><img alt="xat" style="display:none" class="menu" id="messenger_office_btn" src="img/chat.svg"><img alt="Privat" class="menu" id="home_btn" src="img/home.svg"><img alt="Configuració" class="menu" id="edit_btn" src="img/edit.svg"></div>
 </div>
 <script>
     var app = new Application();

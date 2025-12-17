@@ -429,28 +429,28 @@ function Application() {
 		
 		storage = window.localStorage;
 		
-		app.data['office_org'] = (storage.office_org) ? storage.office_org : 'Musterfirma GmbH';
-		app.data['office_fn'] = (storage.office_fn) ? storage.office_fn : 'Max';
-		app.data['office_ln'] = (storage.office_ln) ? storage.office_ln : 'Mustermann';
-		app.data['office_role'] =  (storage.office_role) ? storage.office_role : 'Mitarbeiter';
-		app.data['office_addr'] =  (storage.office_addr) ? storage.office_addr : 'Mustergasse 1';
-		app.data['office_zip'] =  (storage.office_zip) ? storage.office_zip : '12345';
-		app.data['office_city'] =  (storage.office_city) ? storage.office_city : 'Musterhausen';
-		app.data['office_tel0'] =  (storage.office_tel0) ? storage.office_tel0 : '+49 1234 / 567890';
-		app.data['office_email'] =  (storage.office_email) ? storage.office_email : 'mustermann@musterfirma.de';
-		app.data['office_web'] =  (storage.office_web) ? storage.office_web : 'www.musterfirma.de';
+		app.data['office_org'] = (storage.office_org) ? storage.office_org : 'Universitat de Lleida';
+		app.data['office_fn'] = (storage.office_fn) ? storage.office_fn : 'Nom';
+		app.data['office_ln'] = (storage.office_ln) ? storage.office_ln : 'Cognoms';
+		app.data['office_role'] =  (storage.office_role) ? storage.office_role : 'Càrrec';
+		app.data['office_addr'] =  (storage.office_addr) ? storage.office_addr : 'Plaça Victor Siurana, 1';
+		app.data['office_zip'] =  (storage.office_zip) ? storage.office_zip : '25003';
+		app.data['office_city'] =  (storage.office_city) ? storage.office_city : 'Lleida';
+		app.data['office_tel0'] =  (storage.office_tel0) ? storage.office_tel0 : '+34 70 20 00';
+		app.data['office_email'] =  (storage.office_email) ? storage.office_email : 'nom.cognoms@udl.cat';
+		app.data['office_web'] =  (storage.office_web) ? storage.office_web : 'www.udl.cat';
 		app.update_office_page();
 		
-		app.data['messenger_office'] =  (storage.messenger_office) ? storage.messenger_office : 'freie-messenger@conference.jabber.de?join';
+		app.data['messenger_office'] =  (storage.messenger_office) ? storage.messenger_office : '';
 		
-		app.data['home_fn'] = (storage.home_fn) ? storage.home_fn : 'Max';
-		app.data['home_ln'] = (storage.home_ln) ? storage.home_ln : 'Mustermann';
-		app.data['home_addr'] =  (storage.home_addr) ? storage.home_addr : 'Mustergasse 3';
-		app.data['home_zip'] =  (storage.home_zip) ? storage.home_zip : '12345';
-		app.data['home_city'] =  (storage.home_city) ? storage.home_city : 'Musterhausen';
-		app.data['home_tel0'] =  (storage.home_tel0) ? storage.home_tel0 : '+49 1234 / 567890';
+		app.data['home_fn'] = (storage.home_fn) ? storage.home_fn : 'Nom';
+		app.data['home_ln'] = (storage.home_ln) ? storage.home_ln : 'Cognoms';
+		app.data['home_addr'] =  (storage.home_addr) ? storage.home_addr : '';
+		app.data['home_zip'] =  (storage.home_zip) ? storage.home_zip : '';
+		app.data['home_city'] =  (storage.home_city) ? storage.home_city : '';
+		app.data['home_tel0'] =  (storage.home_tel0) ? storage.home_tel0 : '+34 ';
 		app.data['home_tel1'] =  (storage.home_tel1) ? storage.home_tel1 : '';
-		app.data['home_email'] =  (storage.home_email) ? storage.home_email : 'mustermann@musterprovider.de';
+		app.data['home_email'] =  (storage.home_email) ? storage.home_email : '';
 		app.data['home_web'] =  (storage.home_web) ? storage.home_web : '';
 		app.update_home_page();
 
