@@ -436,8 +436,8 @@ function Application() {
 		app.data['office_addr'] =  (storage.office_addr) ? storage.office_addr : 'Plaça Victor Siurana, 1';
 		app.data['office_zip'] =  (storage.office_zip) ? storage.office_zip : '25003';
 		app.data['office_city'] =  (storage.office_city) ? storage.office_city : 'Lleida';
-		app.data['office_tel0'] =  (storage.office_tel0) ? storage.office_tel0 : '+34 70 20 00';
-		app.data['office_email'] =  (storage.office_email) ? storage.office_email : 'nom.cognoms@udl.cat';
+		app.data['office_tel0'] =  (storage.office_tel0) ? storage.office_tel0 : '+34 973 70 20 00';
+		app.data['office_email'] =  (storage.office_email) ? storage.office_email : 'nom.cognom@udl.cat';
 		app.data['office_web'] =  (storage.office_web) ? storage.office_web : 'www.udl.cat';
 		app.update_office_page();
 		
